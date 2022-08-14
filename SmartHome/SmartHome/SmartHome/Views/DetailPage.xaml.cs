@@ -43,7 +43,7 @@ namespace SmartHome.Views
             client = mqttFactory.CreateMqttClient();
             options = new MqttClientOptionsBuilder()
                 .WithClientId("viet")
-                .WithCredentials("BBFF-FQE4IHzsudYIO5RMbBhjvn7Fz7Y2LR", "BBFF-FQE4IHzsudYIO5RMbBhjvn7Fz7Y2LR")
+                .WithCredentials("", "") // user và pass đều là token của ubidot
                 .WithTcpServer("industrial.api.ubidots.com", 1883)
                 .WithCleanSession()
                 .Build();

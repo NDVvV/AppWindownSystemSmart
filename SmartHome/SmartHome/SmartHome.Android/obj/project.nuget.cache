@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mLq1ekTE1fweZrqfNIwkScUQgho5JI+WeaLy4eJPNqlrGcjEAy84MoCPvqChT3QvnCouyM4g3Hb950ClKcN0mQ==",
+  "dgSpecHash": "mlV1Y+ExixiamPtYlFc2hd9wX5nwcXuSfLpbVWljyP1210cBGLT6sWHKnQsa5r5xt5739YjKoU3RiB/JS+h4Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
+  "projectFilePath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DucViet\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\DucViet\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",

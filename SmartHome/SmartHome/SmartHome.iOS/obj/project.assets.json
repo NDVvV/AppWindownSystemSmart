@@ -5860,11 +5860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.iOS\\SmartHome.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.iOS\\SmartHome.iOS.csproj",
       "projectName": "SmartHome.iOS",
-      "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.iOS\\SmartHome.iOS.csproj",
+      "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.iOS\\SmartHome.iOS.csproj",
       "packagesPath": "C:\\Users\\DucViet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.iOS\\obj\\",
+      "outputPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5885,8 +5885,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj": {
-              "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj"
+            "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj": {
+              "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj"
             }
           }
         }

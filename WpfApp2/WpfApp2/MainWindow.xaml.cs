@@ -15,8 +15,8 @@ namespace WpfAppWindownSystemSmart
         MqttClient client;
         string BrokerAddress = "industrial.api.ubidots.com";
         string id = "20182886";
-        string user = "BBFF-FQE4IHzsudYIO5RMbBhjvn7Fz7Y2LR";
-        string pass = "BBFF-FQE4IHzsudYIO5RMbBhjvn7Fz7Y2LR";
+        string user = "";//token ubidot
+        string pass = "";//token ubidot
         string topicSubLight = "/v1.6/devices/esp8266/lightsensor/lv";
         string topicPubLight = "/v1.6/devices/esp8266/lightSensor";
         string topicPubStatus = "/v1.6/devices/esp8266/mrwcl";

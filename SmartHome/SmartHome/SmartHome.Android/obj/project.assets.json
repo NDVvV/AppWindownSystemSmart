@@ -6562,11 +6562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
+      "projectUniqueName": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
       "projectName": "SmartHome.Android",
-      "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
+      "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.Android\\SmartHome.Android.csproj",
       "packagesPath": "C:\\Users\\DucViet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome.Android\\obj\\",
+      "outputPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6587,8 +6587,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj": {
-              "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\Desktop\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj"
+            "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj": {
+              "projectPath": "C:\\Users\\DucViet\\OneDrive - Hanoi University of Science and Technology\\GitHub\\WindownSystemSmart\\SmartHome\\SmartHome\\SmartHome\\SmartHome.csproj"
             }
           }
         }
