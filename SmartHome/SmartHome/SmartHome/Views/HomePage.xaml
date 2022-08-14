@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModel="clr-namespace:SmartHome.ViewModels"
+             BackgroundColor="#ffffff"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="SmartHome.Views.HomePage">
+    <ContentPage.BindingContext>
+        <viewModel:HomeViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid Padding="20.0" RowDefinitions="50,60,50,60,*" ColumnDefinitions="*,60" BackgroundColor="Transparent">
+            <Image Source="menu.png" Grid.Column="0" HorizontalOptions="Start" HeightRequest="50" Aspect="AspectFill" WidthRequest="50" Grid.Row="0"/>
+            <Image Source="app_icon.png" Grid.Column="1" HorizontalOptions="End" HeightRequest="35" WidthRequest="35" Grid.Row="0" Margin="0,0,10,0"/>
+            <Label Text="Hi Hung 🙋‍♂️!!" FontSize="30" FontAttributes="Bold" VerticalOptions="End" TextColor="Black" Grid.Row="1" Grid.ColumnSpan="2" Margin="10,0,0,0"/>
+            <Label Text="Welcome to Oric Home!" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" TextColor="Black" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,0,0"/>
+            <Label VerticalOptions="Center" TextColor="Black" Grid.Row="3" Grid.Column="0" Margin="10,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Your" TextColor="Black" FontSize="30"/>
+                        <Span Text=" Room" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Frame Padding="5" CornerRadius="20" Grid.Row="3" BackgroundColor="#E3F6F4" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal">
+                    <Label Text="Add" FontSize="10" FontAttributes="Bold" VerticalOptions="Center" TextColor="#87BBB7"/>
+                    <Image Source="add2.png" HeightRequest="25" Aspect="AspectFit"/>
+                </StackLayout>
+            </Frame>
+            <CollectionView x:Name="colection" Margin="10,0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding DeviceData}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"  Span="2" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="20" BackgroundColor="{Binding ColorBg}" HorizontalOptions="CenterAndExpand">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference colection},Path=BindingContext.SelectItemCommand}" CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                            <StackLayout Orientation="Vertical" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                                <Image HeightRequest="105" WidthRequest="105" BackgroundColor="#FFFFFF" Aspect="AspectFit" Source="{Binding Image}">
+                                    <Image.Clip>
+                                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50"/>
+                                    </Image.Clip>
+                                </Image>
+                                <Label Text="{Binding NameRoom}" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                <Label Text="{Binding NumberDevice, StringFormat='{0} devices'}" TextColor="Black" FontSize="18"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

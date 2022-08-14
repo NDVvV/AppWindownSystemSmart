@@ -1,0 +1,34 @@
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.csproj.AssemblyReference.cache
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.GeneratedMSBuildEditorConfig.editorconfig
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.AssemblyInfoInputs.cache
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.AssemblyInfo.cs
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.csproj.CoreCompileInputs.cache
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.deps.json
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.dll
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.pdb
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\XamlC.stamp
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.dll
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\refint\SmartHome.dll
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.pdb
+E:\2021\Ki2\LTUDD\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\ref\SmartHome.dll
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.deps.json
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.dll
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\bin\Debug\netstandard2.0\SmartHome.pdb
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.csproj.AssemblyReference.cache
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.AssemblyInfoInputs.cache
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.AssemblyInfo.cs
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.csproj.CoreCompileInputs.cache
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.dll
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\refint\SmartHome.dll
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\SmartHome.pdb
+C:\Users\DucViet\OneDrive - Hanoi University of Science and Technology\Desktop\SmartHome\SmartHome\SmartHome\obj\Debug\netstandard2.0\ref\SmartHome.dll

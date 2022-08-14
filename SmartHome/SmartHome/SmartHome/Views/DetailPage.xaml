@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModel="clr-namespace:SmartHome.ViewModels"
+             Background="#fff"
+             BackgroundColor="#fff"
+             Title="{Binding Device.NameRoom}"
+             x:Class="SmartHome.Views.DetailPage">
+    <ContentPage.BindingContext>
+        <viewModel:DetailViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <!--#region <StackLayout Orientation="Vertical">
+            <Grid BackgroundColor="Transparent" RowDefinitions="500">
+                <BoxView Grid.Row="0" BackgroundColor="#FCD8D4" />
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Text="Move Sensor:" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="1" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10" >
+                        <Label x:Name="MoveSensorResult" TabIndex="4" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                    <Label Grid.Row="2" Text="Rain Sensor:" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="3" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10">
+                        <Label x:Name="RainSensorResult" TabIndex="3" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                    <Label Grid.Row="4" Text="Light Sensor:" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="5" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10">
+                        <Label x:Name="LightSensorResult" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                </Grid>
+            </Grid>
+            <Grid HorizontalOptions="Center" BackgroundColor="Transparent" RowDefinitions="300" VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Button x:Name="window" TabIndex="2" Text="Window"  Grid.Column="0" Clicked="window_Clicked" ></Button>
+                    <Button x:Name="curtain" TabIndex="1" Text="Curtain"  Grid.Column="1" Clicked="curtain_Clicked"></Button>
+                    <Button x:Name="lockwindow" TabIndex="0" Text="Lock Window"  Grid.Column="2" Clicked="lockwindow_Clicked"></Button>
+
+                    <Label x:Name="bit0" Grid.Row="1" Grid.Column="2"></Label>
+                    <Label x:Name="bit1" Grid.Row="1" Grid.Column="1"></Label>
+                    <Label x:Name="bit2" Grid.Row="1" Grid.Column="0"></Label>
+
+                    <Label Text="Curtain" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <Switch x:Name="curtain" Grid.Row="1" Grid.Column="0" Toggled="curtainSwitched" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" OnColor="#FCD8D4"/> 
+                    <Label Grid.Column="1" Text="Window" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <Switch x:Name="window" Grid.Row="1" Grid.Column="1" Toggled="curtainSwitched" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" OnColor="#FCD8D4"/>
+                    <Label Grid.Column="2" Text="Lock" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Switch x:Name="lockwindow" Grid.Row="1" Grid.Column="2" Toggled="curtainSwitched" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" OnColor="#FCD8D4"/>
+                </Grid>
+            </Grid>
+        </StackLayout>-->
+
+        <StackLayout Orientation="Vertical">
+            <Grid BackgroundColor="Transparent" RowDefinitions="450">
+                <BoxView Grid.Row="0" BackgroundColor="#FCD8D4" />
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Text="Move Sensor:" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="1" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10" >
+                        <Label x:Name="MoveSensorResult" TabIndex="4" Text="0" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                    <Label Grid.Row="2" Text="Rain Sensor:" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="3" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10">
+                        <Label x:Name="RainSensorResult" TabIndex="3" Text="0" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                    <Label Grid.Row="4" Text="Light Sensor:" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame Grid.Row="5" CornerRadius="10" BackgroundColor="#FCE2DB" Padding="15" Margin="0,0,0,10">
+                        <Label x:Name="LightSensorResult" Text="0" FontSize="20" FontAttributes="Bold" HorizontalOptions="End"></Label>
+                    </Frame>
+                   
+                </Grid>
+            </Grid>
+            <Grid HorizontalOptions="Center" BackgroundColor="Transparent" RowDefinitions="300" VerticalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150" />
+                    </Grid.RowDefinitions>
+                    <Button x:Name="curtain" Clicked="curtain_Clicked" Text="Curtain" TabIndex="1" FontSize="20" TextColor="Black"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Button x:Name="window" Clicked="window_Clicked" Grid.Column="0" TabIndex="2" Text="Window" FontSize="20" TextColor="Black"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Button x:Name="lockwindow" Clicked="lockwindow_Clicked" Grid.Column="2" TabIndex="0" Text="Lock" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                </Grid>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
+
+
